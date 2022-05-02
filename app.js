@@ -118,7 +118,7 @@ app.delete("/Logout", (req, res) => {
 
 
 mongoose
-  .connect("mongodb://localhost:27017/Love-project", {
+  .connect("mongodb://127.0.0.1:27017/Love-project", {
     useUnifiedTopology: true,
     useNewUrlParser: true,
   })
